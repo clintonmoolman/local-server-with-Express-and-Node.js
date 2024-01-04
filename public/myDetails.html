@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;family=Sacramento&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section id="menu">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Website of Clinton Moolman</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="./resume.html"
+                    >Education & Skills</a
+                  >
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    My Projects
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./resume.html">Contact</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- end of Navbar -->
+
+    <!-- My Intro and About -->
+    <section id="intro1">
+      <div class="container col-xxl-8 px-4 py-3">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src="./Clinton.jpg.jpg"
+              class="d-block mx-lg-auto img-fluid img-thumbnail"
+              alt="image of Clinton"
+              height="300"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1
+              class="display-8 fw-bold text-body-emphasis lh-1 mb-3 fontfamily1"
+            >
+              Hi
+              <span class="wave display-3" role="img" aria-labelledby="wave"
+                >👋🏻</span
+              >
+              <span class="wavinghand"></span><br />
+              I am Clinton Moolman,
+            </h1>
+            <p class="lead display-8" id="about">
+              I am a 32-year-old <strong>Junior Software Engineer</strong>,
+              residing in South Africa. I was employed in the public sector for
+              more than a decade in an administrative role, before I decided to
+              make a career shift to tech. I hold a Bachelor of Commerce in
+              Business Informatics (Majoring in Information Systems), and are
+              currently enrolled in a software development bootcamp, to equip
+              myself with the necessary skills required as a Software Engineer.
+            </p>
+            <p class="lead display-8">
+              <strong>Skills:</strong>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+                <li>JQuery</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+              </ul>
+            </p>
+
+            <div class="alert">
+              <p>
+                Please note that some of the links on this site might not work,
+                as I have not yet linked all the pages in this project.
+              </p>
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+                <a
+                  href="./resume.html"
+                  class="btn btn-primary btn-lg px-4 me-md-2"
+                  >Education & Skills</a
+                >
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-secondary btn-lg px-4"
+              >
+                <a href="./projects.html"></a>
+                My Projects
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of intro and about -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
