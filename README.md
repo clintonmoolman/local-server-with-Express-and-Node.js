@@ -8,6 +8,7 @@ To run the project on your local macine:
 > open the terminal in your editor
 > cd to where you have saved the project on your PC
 > initialise NPM
+> install the body-parser and express packages ( npm i body-parser express)
 > Start the server (node index.js)
 
 The project will run on localhost:5000
