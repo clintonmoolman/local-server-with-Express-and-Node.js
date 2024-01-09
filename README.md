@@ -1,4 +1,4 @@
-# myWebsite
+# local server with Express and Node.js
 In this project I have created a local server running on port:5000 using Express with Node.js.
 
 The aim of the project is to authenticate the user, by requesting the user to input the correct password.
