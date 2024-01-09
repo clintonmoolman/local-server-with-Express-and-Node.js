@@ -17,7 +17,7 @@ var userIsAuthorised = false;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-//Creating custom Middleware to check if the password entered is correct, to proceed to the next code
+//Creating custom Middleware to check if the password entered is correct, to proceed to the next block of code.
 function passwordCheck(req, res, next) {
   const password = req.body["password"];
   if (password === "MyPassword") {
